@@ -12,7 +12,7 @@ root.title("Arduino Communications")
 
 target = 0
 
-#test
+#test 1
 ser = serial.Serial(port="COM4", baudrate=9600, bytesize=8, timeout=2, stopbits=serial.STOPBITS_ONE)
 
 def ledOn():
